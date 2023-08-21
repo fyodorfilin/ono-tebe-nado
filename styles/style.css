@@ -55,6 +55,7 @@ main {
     grid-column-start: 2;
     grid-column-end: 2;
     justify-self: center;
+    padding: 0 5px;
 }
 
 .address {
@@ -115,6 +116,7 @@ main {
 }
 
 .aligned-text_right {
+    margin-top: 15px;
     align-self: flex-end;
 }
 
