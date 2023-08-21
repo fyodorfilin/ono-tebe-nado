@@ -101,14 +101,13 @@ body, main {
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
-    row-gap: 0;
+    row-gap: 20px;
     z-index: 1;
 }
 
 .aligned-text {
     line-height: 115%;
     align-self: flex-start;
-    margin-bottom: 20px;
 }
 
 .aligned-text_center {
