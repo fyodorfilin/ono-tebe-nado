@@ -40,6 +40,10 @@ main {
     line-height: normal;
 }
 
+.no-bullit {
+    list-style-type: none;
+}
+
 .ac {
     text-decoration: none;
 }
@@ -62,7 +66,6 @@ main {
     justify-self: end;
     font-family: 'Raleway RG';
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24.3px;
 }
@@ -343,14 +346,6 @@ main {
     align-items: center;
 }
 
-.header__links-list-item {
-    font-family: 'Raleway RG';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
 .footer__social-list {
     justify-self: end;
     list-style: none;
@@ -359,6 +354,14 @@ main {
     justify-content: space-between;
     width: 240px;
     height: 48px;
+}
+
+.footer__social-list-item {
+    font-family: 'Raleway RG';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .footer__social-icon {
