@@ -103,12 +103,13 @@ main {
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 0;
     z-index: 1;
 }
 
 .aligned-text {
     align-self: flex-start;
+    margin-bottom: 20px;
 }
 
 .aligned-text_center {
@@ -116,7 +117,6 @@ main {
 }
 
 .aligned-text_right {
-    margin-top: 25px;
     align-self: flex-end;
 }
 
